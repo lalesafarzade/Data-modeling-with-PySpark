@@ -53,30 +53,5 @@ PySpark	Data
 Parquet	
 IAM	
 
-# Project Structure
-pyspark-demo-lala/
-
-│
-├── script/
-│   └── classical_modeles_warehouse.py
-│
-├── raw/
-│   ├── customers/
-│   ├── employees/
-│   ├── offices/
-│   ├── orders/
-│   ├── order_details/
-│   ├── products/
-│   ├── product_lines/
-│   └── payments/
-│
-└── warehouse/
-    ├── dim_customer/
-    ├── dim_product/
-    ├── dim_employee/
-    ├── dim_office/
-    ├── dim_date/
-    ├── fact_orders/
-    └── fact_payments/
 
 
