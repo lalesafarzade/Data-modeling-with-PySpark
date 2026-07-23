@@ -45,11 +45,38 @@ The goal of this project is to demonstrate an end-to-end ETL workflow using serv
 
 # Technologies Used
 
-Technology	Purpose
-Amazon S3	Data storage layer
-AWS Glue	Serverless ETL processing
-Apache Spark	Distributed data processing
-PySpark	Data transformation framework
-Parquet	Columnar storage format
-IAM	Security and permissions
+Technology	
+Amazon S3	
+AWS Glue	
+Apache Spark	
+PySpark	Data 
+Parquet	
+IAM	
+
+# Project Structure
+pyspark-demo-lala/
+
+│
+├── script/
+│   └── classical_modeles_warehouse.py
+│
+├── raw/
+│   ├── customers/
+│   ├── employees/
+│   ├── offices/
+│   ├── orders/
+│   ├── order_details/
+│   ├── products/
+│   ├── product_lines/
+│   └── payments/
+│
+└── warehouse/
+    ├── dim_customer/
+    ├── dim_product/
+    ├── dim_employee/
+    ├── dim_office/
+    ├── dim_date/
+    ├── fact_orders/
+    └── fact_payments/
+
 
